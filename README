@@ -2,6 +2,11 @@ This is an example application to show how to create a distributable python modu
 
 setup.py
 
+classifiers: http://pypi.python.org/pypi?%3Aaction=list_classifiers
+
+
+MANIFEST.in
+
 Setuptools 
 find_packages
 setup
