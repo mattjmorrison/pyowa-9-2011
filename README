@@ -1,0 +1,16 @@
+This is an example application to show how to create a distributable python module.
+
+setup.py
+
+Setuptools 
+find_packages
+setup
+
+Commands
+test
+install
+register
+sdist upload
+-r flag
+
+.pypirc file
