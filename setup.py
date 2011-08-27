@@ -1,7 +1,9 @@
 from setuptools import find_packages, setup
 
+from mattspackage import VERSION
+
 setup(
-    version="0.1.5",
+    version=VERSION,
     name="mattspackage",
     author="Matthew J. Morrison",
     author_email="mattjmorrison@mattjmorrison.com",
@@ -9,12 +11,12 @@ setup(
     long_description=open('README', 'r').read(),
     packages=find_packages(),
     include_package_data=True,
-    classifiers = [
+    classifiers=[
         'Development Status :: 1 - Planning',
-        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Environment :: Console',
     ],
+    license='License :: OSI Approved :: MIT License',
     install_requires=(
         'pyephem',
     ),
