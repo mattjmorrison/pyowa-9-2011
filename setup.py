@@ -9,14 +9,14 @@ setup(
     author_email="mattjmorrison@mattjmorrison.com",
     description="Matt's Package will notify werewolf hunters when the next full moon will be.",
     long_description=open('README.rst', 'r').read(),
-    packages=find_packages(),
-    include_package_data=True,
     classifiers=[
         'Development Status :: 1 - Planning',
         'Programming Language :: Python',
         'Environment :: Console',
     ],
     license='License :: OSI Approved :: MIT License',
+    packages=find_packages(),
+    include_package_data=True,
     install_requires=('pyephem',),
     tests_require=('lettuce',),
     test_suite='mattspackage.tests'
