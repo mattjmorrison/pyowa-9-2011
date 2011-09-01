@@ -1,4 +1,4 @@
-Feature: Full Moon
+Feature: Full Moon Warning
   In order to know when to load my gun with silver bullets
   As a Werewolf hunter
   I want to know when Werewolves will be on the prowl
