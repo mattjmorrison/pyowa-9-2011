@@ -17,11 +17,7 @@ setup(
         'Environment :: Console',
     ],
     license='License :: OSI Approved :: MIT License',
-    install_requires=(
-        'pyephem',
-    ),
-    tests_require=(
-        'lettuce',
-    ),
+    install_requires=('pyephem',),
+    tests_require=('lettuce',),
     test_suite='mattspackage.tests'
 )

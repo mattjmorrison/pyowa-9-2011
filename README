@@ -5,7 +5,7 @@ setup.py
 classifiers: http://pypi.python.org/pypi?%3Aaction=list_classifiers
 
 
-MANIFEST.in
+MANIFEST.in -> http://docs.python.org/distutils/sourcedist.html#the-manifest-in-template
 
 Setuptools 
 find_packages
